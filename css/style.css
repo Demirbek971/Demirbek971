@@ -1,6 +1,8 @@
-p{
+p {
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
+    font-size: 120px;
+    padding: 10px;
+    margin-left: 530px;
 }
