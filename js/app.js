@@ -10,14 +10,14 @@ window.addEventListener('keydown', function(e) {
         if (!audio.paused) {
             audio.pause();
         } else {
-            audio.currentTime = 0; // qayta o'ynashni boshlash
-            audio.play(); // audio faylni ijro etish
+            audio.currentTime = 0;
+            audio.play();
         }
     } else {
         const audios = document.querySelectorAll('audio');
         audios.forEach(audio => audio.pause());
-        audio.currentTime = 0; // qayta o'ynashni boshlash
-        audio.play(); // audio faylni ijro etish
+        audio.currentTime = 0;
+        audio.play();
     }
     lastKey = e.keyCode;
 });
