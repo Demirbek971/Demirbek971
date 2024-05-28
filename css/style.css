@@ -6,3 +6,13 @@ p {
     padding: 10px;
     margin-left: 530px;
 }
+
+.key {
+    width: 60px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 200px;
+    margin-right: 5px;
+    display: inline-block;
+}
